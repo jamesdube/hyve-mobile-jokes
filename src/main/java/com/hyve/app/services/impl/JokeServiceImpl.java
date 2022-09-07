@@ -1,11 +1,11 @@
 package com.hyve.app.services.impl;
 
 import com.hyve.app.config.JokesApiParameters;
-import com.hyve.app.convertors.JokeConvertor;
+import com.hyve.app.convertors.api.JokeConvertor;
 import com.hyve.app.data.ApiJokesResponse;
 import com.hyve.app.domain.Joke;
 import com.hyve.app.repositories.JokeRepository;
-import com.hyve.app.services.JokeService;
+import com.hyve.app.services.api.JokeService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;

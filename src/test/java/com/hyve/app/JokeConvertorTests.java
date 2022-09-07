@@ -1,6 +1,6 @@
 package com.hyve.app;
 
-import com.hyve.app.convertors.JokeConvertor;
+import com.hyve.app.convertors.api.JokeConvertor;
 import com.hyve.app.convertors.impl.JokeConvertorImpl;
 import com.hyve.app.data.ApiJokesResponse;
 import com.hyve.app.domain.Joke;

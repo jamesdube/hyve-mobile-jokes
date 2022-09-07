@@ -1,4 +1,4 @@
-package com.hyve.app.services;
+package com.hyve.app.services.api;
 
 import com.hyve.app.domain.Joke;
 

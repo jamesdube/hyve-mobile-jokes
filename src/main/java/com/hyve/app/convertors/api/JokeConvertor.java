@@ -1,4 +1,4 @@
-package com.hyve.app.convertors;
+package com.hyve.app.convertors.api;
 
 import com.hyve.app.data.ApiJokesResponse;
 import com.hyve.app.domain.Joke;

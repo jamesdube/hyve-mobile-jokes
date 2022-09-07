@@ -5,7 +5,7 @@ import com.hyve.app.config.JokesApiParameters;
 import com.hyve.app.convertors.impl.JokeConvertorImpl;
 import com.hyve.app.data.ApiJokesResponse;
 import com.hyve.app.domain.Joke;
-import com.hyve.app.services.JokeService;
+import com.hyve.app.services.api.JokeService;
 import com.hyve.app.services.impl.JokeServiceImpl;
 import com.hyve.app.setup.UnitTest;
 import org.junit.jupiter.api.Test;

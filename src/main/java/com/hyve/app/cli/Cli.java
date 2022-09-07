@@ -2,7 +2,7 @@ package com.hyve.app.cli;
 
 import com.hyve.app.config.JokesApiParameters;
 import com.hyve.app.domain.Joke;
-import com.hyve.app.services.JokeService;
+import com.hyve.app.services.api.JokeService;
 import lombok.AllArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -17,7 +17,7 @@ public class Cli implements CommandLineRunner {
     protected JokesApiParameters jokesApiParameters;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
 
         List<Joke> jokes = jokeService.getJokes(jokesApiParameters.getJokesToDownloadCount());
 
