@@ -5,10 +5,8 @@ import com.hyve.app.config.JokesApiParameters;
 import com.hyve.app.convertors.impl.JokeConvertorImpl;
 import com.hyve.app.data.ApiJokesResponse;
 import com.hyve.app.domain.Joke;
-import com.hyve.app.repositories.JokeRepository;
 import com.hyve.app.services.JokeService;
 import com.hyve.app.services.impl.JokeServiceImpl;
-import com.hyve.app.setup.FeatureTest;
 import com.hyve.app.setup.UnitTest;
 import org.junit.jupiter.api.Test;
 import org.mockserver.client.MockServerClient;
@@ -16,13 +14,10 @@ import org.mockserver.integration.ClientAndServer;
 import org.mockserver.model.HttpRequest;
 import org.mockserver.model.HttpResponse;
 import org.mockserver.model.MediaType;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

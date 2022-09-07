@@ -2,9 +2,7 @@ package com.hyve.app.setup.factories;
 
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.hyve.app.setup.EntityFactory;
-import com.hyve.app.setup.JsonNodeBuilders;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import static com.hyve.app.setup.JsonNodeBuilders.array;
