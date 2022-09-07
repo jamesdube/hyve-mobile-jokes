@@ -1,6 +1,7 @@
 server:
   port: 0
 spring:
+  main.web-application-type: none
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/jokes?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
     username: root
